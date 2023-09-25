@@ -4,27 +4,48 @@ list-style: none;
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 body .heading {
-    
+display: flex;
+align-items: center;
+justify-content: space-between; 
+margin: 1rem 1.5rem;
 }
 body .heading .logo {
     
 }
 body .heading .logo img {
-
+width: 3rem;
 }
 
 body .heading .menu {
-    
+
 }
 body .heading .menu ul{
-    
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+   flex-direction: row; 
+   
+
 }
 body .heading .menu ul li {
-    
+  margin: 0 2rem; 
+
+  
 }
 body .heading .menu ul li a {
-    
+  /*color: black; */ 
+ font-size: 1.15rem; 
+   padding-bottom: 10px; 
+}
+body .heading .menu ul li a:hover {
+    color: rgb(139, 43, 255);
+    border-bottom: 2px solid rgb(139, 43, 255);
+
 }
