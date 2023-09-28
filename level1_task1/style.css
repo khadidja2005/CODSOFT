@@ -118,9 +118,8 @@ body .heading .menu ul li a:hover {
   /* height: 10rem; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: white;
-  padding: 1rem 2rem ;
 
 
 }
@@ -134,5 +133,134 @@ body .heading .menu ul li a:hover {
 .footer .feeds img {
   height: 2rem;
   fill: white;
+  margin: 10px;
+  cursor: pointer;
+
 }
+.footer .infos p {
+ margin: 10px;
+}
+.footer .courses p {
+ margin: 10px;
+}
+.about img {
+  height: 30rem;
+}
+.about {
+  padding: 10px 20px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about .content {
+  padding: 10px 100px 10px 40px  ;
+}
+.about img {
+  margin: 20px 40px ;
+  border: 3px solid #d333ffb3;
+}
+.about .content h1 {
+font-size: 4rem;
+margin: 20px 10px ;
+}
+.about .content p {
+line-height: 1.6;
+font-size: 1.3rem;
+color: #555;
+}
+.services {
+  background-image: linear-gradient(to right, #675aff, #ff33ff); 
+  display: flex;
+  height: 40vh;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.services .box {
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.services img {
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 10px;
+  height: 50px;
+}
+.services p {
+  font-size: 15px;
+  margin: 0 10px;
+  color: #eee;
+
+}
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.courses h1 {
+  font-size: 50px;
+  margin: 40px 10px;
+}
+.courses .contents  {
+display: flex;
+align-items: center;
+justify-content: space-around;
+/* margin: 10px 20px; */
+}
+.courses .contents .box {
+margin: 30px 60px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border: 2px solid black;
+border-radius: 15px;
+position: relative;
+}
+
+.courses .contents .box::before{
+  content: "";
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transition: 0.3s;
+  position: absolute;
+}
+.courses .contents .box:hover::before{
+  background-image: linear-gradient(to right, #685affa6, #ff33ffa1); 
+  width:100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.courses .contents .box img {
+width: 15rem;
+
+border-radius: 5px;
+}
+.courses .contents .box h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.courses .contents .box p {
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+  margin: 10px ;
+}
+
+
+
 
