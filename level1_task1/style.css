@@ -20,12 +20,9 @@ body .heading .logo {
     
 }
 body .heading .logo img {
-width: 3rem;
+width: 2.5rem;
 }
 
-body .heading .menu {
-
-}
 body .heading .menu ul{
     display: flex;
    align-items: center;
@@ -35,7 +32,7 @@ body .heading .menu ul{
 
 }
 body .heading .menu ul li {
-  margin: 0 2rem; 
+  margin: 0 1.5rem; 
 
   
 }
@@ -43,9 +40,99 @@ body .heading .menu ul li a {
   /*color: black; */ 
  font-size: 1.15rem; 
    padding-bottom: 10px; 
+   transition: 0.1s;
+   color: rgb(30, 12, 48);
 }
 body .heading .menu ul li a:hover {
     color: rgb(139, 43, 255);
     border-bottom: 2px solid rgb(139, 43, 255);
 
 }
+.home {
+  background-image: url("./assets/theme-photos-CGpifH3FjOA-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.home::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+.home h1 {
+  color: #eee;
+  z-index: 100;
+  font-size: 4rem;
+  padding: 20px ;
+}
+.home p {
+  color: #aaa;
+  font-size: 1.5rem;
+  z-index: 100;
+}
+.bot {
+  padding: 2rem ;
+  z-index: 100;
+}
+.bot button {
+   font-size: 1.8rem;
+   margin: 10px 20px;
+   padding: 10px 20px;
+   border: 2px solid white;
+   color: white;
+   background-color:transparent; 
+   position: relative;
+}
+/* .bot button:hover {
+  background-image: linear-gradient(to right, #675aff, #ff33ff);
+} */
+.bot button::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  z-index: -1;
+}
+.bot button:hover::before {
+  width: 100%;
+  background-image: linear-gradient(to right, #675aff, #ff33ff);
+}
+.footer {
+  background-image: linear-gradient(to right, #675aff, #ff33ff); 
+  /* height: 10rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem 2rem ;
+
+
+}
+.footer .feeds {
+  padding: 1rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;  
+}
+.footer .feeds img {
+  height: 2rem;
+  fill: white;
+}
+
