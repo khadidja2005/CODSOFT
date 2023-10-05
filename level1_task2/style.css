@@ -1,0 +1,203 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(1, 1, 45);
+    }
+    .heading .menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .heading .menu ul li {
+        margin: 1.5rem;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: blanchedalmond;
+    }
+    .heading .menu ul li:hover {
+        border-radius: 6px;
+        background-color: blanchedalmond;
+    }
+    .heading .menu ul li:hover a  {
+        color: rgb(1, 1, 45);
+    }
+    .heading .menu ul li a {
+        color: blanchedalmond
+    }
+    .home {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 100px;
+    }
+    .home h1{
+      color: blanchedalmond;
+      margin: 20px 30px;
+      font-size: 50px;
+    }
+    .home img{
+      width: 600px;
+    }
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        margin: 40px;
+    }
+    .about p{
+        color: blanchedalmond;
+        margin: 20px 10px;
+        font-size: 20px;   
+    }
+    .about img{
+      width: 600px;    
+    }
+.aboutme h1 {
+   text-align: center; 
+   font-size: 50px;
+    color: blanchedalmond;
+}
+.skills {
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: 80px 50px ;
+gap: 100px;
+}
+.skills h3 {
+color: blanchedalmond;
+font-size: 30px;
+margin: 20px;
+}
+.skills .logo {
+display: flex;
+flex-wrap: wrap;
+}
+.myskills h1 {
+font-size: 50px;
+color: blanchedalmond;
+margin: auto;
+text-align: center;
+}
+.skills .logo img{
+    width: 80px;
+    margin: 10px;
+}
+.projects  {
+margin: 20px;
+}
+.projects h1 {
+    text-align: center; 
+    font-size: 50px;
+    color: blanchedalmond;
+}
+.projects .content {
+display: grid;
+grid-template-columns:auto auto auto ;
+margin: 40px;
+}
+.projects .content .box {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border: 2px solid blanchedalmond;
+margin: 30px;
+cursor: pointer;
+}
+.projects .content .box img {
+width: 300px;
+margin: 20px;
+}
+.projects .content .box h3 {
+text-align: center;
+color: blanchedalmond;
+margin: 20px;
+font-size: 28px;
+}
+.projects .content .box p {
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 20px;
+color: rgba(255, 235, 205, 0.734);
+}
+.contact {
+    margin: 40px;
+}
+.contact h1 {
+    text-align: center; 
+    font-size: 50px;
+    color: blanchedalmond; 
+}
+.contact .info {
+    margin: 20px;
+}
+.contact .info form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact .info form label{
+margin: 20px;
+font-size: 25px;
+color: blanchedalmond;
+}
+.contact .info form input{
+background-color: rgba(255, 235, 205, 0.602);
+border: 1px solid blanchedalmond;
+border-radius: 10px;
+width: 80%;
+height: 50px;
+padding: 10px;
+}
+.contact .info form textarea {
+    width: 80%;
+    margin: 50px 0;
+    border-radius: 10px;
+    background-color: rgba(255, 235, 205, 0.602);
+    border: 1px solid blanchedalmond;
+    padding: 10px;
+}
+.contact .info form button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: blanchedalmond;
+    color: rgb(1, 1, 45);
+    font-size: 30px;
+    margin-left: 770px;
+    cursor: pointer;
+}
+.footer {
+    background-color:rgb(0, 0, 25) ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+    gap: 100px;
+}
+.footer .social .media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.footer p {
+    color:blanchedalmond ;
+}
