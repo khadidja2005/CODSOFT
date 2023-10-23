@@ -10,6 +10,9 @@
         font-family: 'Poppins', sans-serif;
         background-color: rgb(1, 1, 45);
     }
+    .heading .menu ul li.bar {
+      display: none; 
+    }
     body .heading {
         width: 100%;
         top: 0;
@@ -146,7 +149,7 @@ color: rgba(255, 235, 205, 0.734);
 .contact h1 {
     text-align: center; 
     font-size: 50px;
-    color: blanchedalmond; 
+    color: #ffebcd; 
 }
 .contact .info {
     margin: 20px;
@@ -256,7 +259,30 @@ padding: 10px;
     .skills .logo img {
         width: 50px;
     }
+    .skills {
+        flex-direction: column;
+        margin: 80px 50px ;
+        gap: 70px;  
+    }
+    .footer .social {
+    flex-direction: column;
+    }
+    .home img {
+        width: 400px;   
+    }
+    .home h1 {
+        font-size: 30px;
+    }
+    
 }
+@media(max-width:810px) {
 
+    .heading .menu ul li {
+        margin: 1.3rem;
+        padding: 2px 5px;
+        font-size: 14px;
+        color: blanchedalmond;
+    }
+}
 
 
